@@ -21,10 +21,23 @@ int main(int argc, char** argv){
 	switch(c){
 		case 1:
 			mergeSort(aList);
-			printf("IT GOT HERE!\n");
+			break;
+		case 2:
+			quicksort(aList);
+			break;
+		case 3:
+			bubble_sort(aList);
+			break;
+		case 4:
+			insertion_sort(aList);
+			break;
+		case 5:
+			selection_sort(aList);
+			break;
+		case 6:
+			shell_sort(aList);
 			break;
 		default:
-//			mergeSort(aList);
 			return 0;
 	}
 	
